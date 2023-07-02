@@ -22,12 +22,9 @@ const r1 = readline.createInterface({
 
   function replaceVowel(string){
     let regex = /[aeiou]/i
-  //  let i = (string.replace(regex,'-'));
-  //  return i;
-//  let test = 'Hello, world!';
-//let regex = /world/;
+
 return string.replace(regex, '-');
-console.log(newString);
+
 
   }
 
